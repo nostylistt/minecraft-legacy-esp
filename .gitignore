@@ -1,0 +1,32 @@
+# Build output
+dll/x64/
+dll/obj/
+dll/Release/
+dll/Debug/
+injector/out/
+injector/obj/
+
+# VS / IDE
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.filters.bak
+
+# Compiled intermediates (NOT release/ — the prebuilt binaries live there and ARE committed)
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.ipdb
+*.iobj
+*.tlog
+*.log
+*.recipe
+*.lastbuildstate
+*.CppClean.log
+
+# Keep prebuilt artifacts in release/
+!release/
+!release/*.dll
+!release/*.exe
