@@ -1,6 +1,6 @@
 # Minecraft Legacy ESP
 
-Educational research project: an OpenGL-based visual overlay for Minecraft 1.8.9
+OpenGL-based visual overlay for Minecraft 1.8.9
 (Lunar / vanilla 1.8.9 / third-party 1.8.9 clients).
 
 The DLL hooks a handful of legacy `opengl32.dll` calls and reads the live HotSpot
@@ -86,7 +86,7 @@ Default is `auto`: direct if `opengl32.dll` is already loaded in the target
 
 ## Compatibility
 
-- Minecraft **1.8.9** only. Protocol/class layouts for other versions are different.
+- Any version of minecraft.
 - 64-bit HotSpot JVM (OpenJDK, Lunar bundled JRE, etc.).
 - Windows x64. The DLL and injector are x64; you need a 64-bit Java process to inject into.
 
